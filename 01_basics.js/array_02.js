@@ -17,4 +17,4 @@ const dc_heros = ["superman", "flash", "batman"]
   console.log(array[5][3]);
 
   const real_array = array.flat(Infinity)
-console.log(real_array);
+console.log(real_array); 
