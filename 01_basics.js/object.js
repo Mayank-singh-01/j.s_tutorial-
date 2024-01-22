@@ -13,7 +13,7 @@ console.log(user);
 console.log(user.subject);
 console.log(user["subject"][2])
 
-user.name = "mayank kumar "
+user.name = "mayank kumar"
 console.log(user);
  
 //***************object-02**************
