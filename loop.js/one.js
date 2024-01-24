@@ -24,13 +24,13 @@ for (let i = 1; i <= 10; i++) {
     
 }
 
-//*****************************brake*******************
+//*****************************array using loop*******************
 const myarray = ["mayank","akki","chhotu","shashi",]
 
 for (let index = 0; index < myarray.length; index++) {
 
     const element = myarray[index];
-    console.log(element);
+   // console.log(element);
     
 }
 
@@ -51,9 +51,19 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 1; i <= 10; i++) {
     const element = i;
     if (i == 5) {
-        console.log("5 detected");
+      //  console.log("5 detected");
         continue
     }
-    console.log(i);
+  //  console.log(i);
 }
 
+//*****************************for of loop *********************** 
+let name = 'mayank singh'
+
+for (const i of name) {
+    if (i == " ") {
+        continue
+    }
+    console.log(`later of name is ${i}`);
+    
+}
