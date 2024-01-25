@@ -5,9 +5,9 @@ function firstone (num1 ,num2 ) {
 console.log(firstone (5 ,6))
 
 function calculateprice ( num2 , num3 , ...num1) {  //...num1 three dots is called rest operator
-    return num1 
+    return [num2 ,num3 ,  num1];                //we have to use bracket to return other value then ...num1****
 }
- console.log(calculateprice(100 , 200 , 400,500 , 600 , 700))
+ console.log(calculateprice(100 , 200 , 400, 500 , 600 , 700))
 
  //**************using object*******************
 

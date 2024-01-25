@@ -68,3 +68,4 @@ for (const i of name) {
     console.log(`later of name is ${i}`);
     
 }
+
