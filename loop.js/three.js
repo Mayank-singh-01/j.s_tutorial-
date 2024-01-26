@@ -47,3 +47,5 @@ const books = [
 let filtered =  books.filter( (mks) => { return mks.edition >= 2000 && mks.genre === "Science"})
 
 console.log(filtered);
+
+//using filter

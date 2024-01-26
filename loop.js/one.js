@@ -62,10 +62,10 @@ for (let i = 1; i <= 10; i++) {
 let name = 'mayank singh'
 
 for (const i of name) {
-    if (i == " ") {
+    if (i == " ") { 
         continue
     }
     console.log(`later of name is ${i}`);
     
 }
-
+ //
