@@ -33,7 +33,7 @@ const mydata = ["mayank","singh","rajput"]
 // } )
 
 function fundata(data){ 
-    console.log(data);
+  console.log(data);
 }
 mydata.forEach(fundata)
 
@@ -62,6 +62,7 @@ const myarray = [
         mygrade: "e"
     },
 ]
+
 myarray.forEach( (value)=> { 
-    console.log(value.myname , value.mygrade);
-} )
+    console.log(`name is ${value.myname} and grade is ${value.mygrade}`);
+} );
