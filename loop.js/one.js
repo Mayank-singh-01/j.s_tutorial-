@@ -61,11 +61,11 @@ for (let i = 1; i <= 10; i++) {
 //*****************************for of loop *********************** 
 let name = 'mayank singh'
 
-for (const i of name) {
-    if (i == " ") { 
+for (const word of name) {
+    if (word == " ") { 
         continue
     }
-    console.log(`later of name is ${i}`);
+    console.log(`later of name is ${word}`);
     
 }
  //

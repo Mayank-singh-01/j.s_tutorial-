@@ -66,3 +66,9 @@ const myarray = [
 myarray.forEach( (value)=> { 
     console.log(`name is ${value.myname} and grade is ${value.mygrade}`);
 } );
+
+// const newcont = (myarray.forEach( (value)=> { 
+//     console.log(`name is ${value.myname} and grade is ${value.mygrade}`);   //when we store it any container then calue is undefined
+// } )) 
+
+//console.log(newcont);

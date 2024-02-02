@@ -7,8 +7,7 @@ const values = coding.forEach( (item) => {
     console.log(item);
     return item
 })
-
-console.log(values)     //for each  isn't  return thre the value
+//console.log(values)     //for each  isn't  return thre the value
 
 // we use filter for automatic return the value
 
@@ -16,11 +15,17 @@ console.log(values)     //for each  isn't  return thre the value
 
  const num = [1,2,3,4,5,6,7,8,9,10]
 
-newnum =  num.filter( (numdata) => {
-    return numdata >5
-} )
-console.log(newnum);
+ const newnum = num.filter( (numdata) => numdata > 5 )
+ console.log(newnum);
 
+// newnum =  num.filter( (numdata) => {
+//     return numdata >5
+// } )
+// console.log(newnum);
+
+// retue=rning value on object usng blank array 
+
+ 
 // const newnum = []
 
 // num.forEach((numdata) => { 
