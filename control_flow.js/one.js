@@ -9,4 +9,6 @@ if (score < 200) {
     console.log(`your score is less then 1000`);
 } else { 
     console.log(`your score is grater then 1000`);
-}
+} 
+
+//ita\s an example of else of 
