@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>adding and removing in dom</title>
+</head>
+<body>
+    <ul class="ulclass">
+        <li > javascript </li>
+    </ul>
+</body>
+<script>
+    // const mynewli = document.createElement('li')      //by using this method we can add only one li 
+    // mynewli.innerText = 'python'                      // if we add another li it overwrite it 
+    // mynewli.innerText = 'typescript'
+    // document.querySelector('.ulclass').appendChild(mynewli)
+
+   //there is many diff type to add this 
+   //one of htem is functiioin 
+
+   function funforli (langname) { 
+    const mynewli = document.createElement('li') ;
+        // mynewli.innerText = langname
+           mynewli.appendChild(document.createTextNode(langname))      //its a optmise code ***********
+           document.querySelector('.ulclass').appendChild(mynewli)
+   }
+   funforli("typescript")
+   funforli("python")
+   funforli("c++")
+
+
+</script>
+</html>
