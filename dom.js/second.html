@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>dom second file </title>
+    <title>learning dom with chai aur code</title>
 </head>
-<body>
+<body style="background-color: #212121; color: #fff;">
     <div class="parent">
-        <div class="day">monday</div>
-        <div class="day">tuesday</div>
-        <div class="day">wednwsday</div>
-        <div class="day">thrusday</div>
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
     </div>
 </body>
-  <script> 
-     const newparent = document.querySelector(".parent")
-     console.log(newparent);
-     console.log(newparent.children);
-     console.log(newparent);
-     console.log(newparent.children[2].innerHTML);
-   </script>
+<script>
+    const newparent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+
+    // for (let i = 0; i < newparent.children.length; i++) {
+    //     console.log(newparent.children[i].innerHTML);
+    // }
+  console.log(newparent.firstElementChild);
+   
+   
+</script>
 </html>
