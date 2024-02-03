@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>third file of dom</title>
+  <title>injecting div into html</title>
 </head>
 <body>
-    
+  
 </body>
   <script>
-    document.querySelectorAll("title")
+    const mydiv = document.createElement('div')
+    //mydiv.id = 'myid'
+
+    mydiv.setAttribute("id","myid")         //two different way to inject 
+    mydiv.className = 'myclass'
+
+
+    mydiv.setAttribute("style", "color: blue;");    //two different way to inject 
+    mydiv.style.backgroundColor = 'red'
+
+
+    mydiv.innerText = 'mayank singh'  
+    console.log(mydiv);
+
+    document.body.appendChild(mydiv)        //adding div to the body
+
   </script>
 </html>
