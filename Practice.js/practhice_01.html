@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>project 01</title>
+    <style>
+        .colorswitcher{ 
+            display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+        }
+        .button { 
+          height: 90px;
+          width: 90px;
+          border: 4px solid rgb(72, 209, 175) ; 
+          border-radius: 15px;
+          margin: 10px;
+        }
+        h1 , h2 {  
+            display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          justify-content: center;
+        }
+        #red { 
+            background-color: rgb(226, 30, 30);
+        }
+        #skyblue { 
+            background-color: skyblue;
+        }
+        #pink { 
+            background-color: pink;
+        }
+        #gray { 
+            background-color: gray;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>color switchers project</h1>
+      
+     <div class="colorswitcher">
+        <div class="button" id="red"></div>
+        <div class="button" id="skyblue"></div>
+        <div class="button" id="pink"></div>
+        <div class="button" id="gray"></div>
+     </div> <br>
+     <h2><i>click the button to see the magic</i> </h2>
 </body>
 </html>
