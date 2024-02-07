@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # j.s_tutorial-
 learning j.s with the help of chai and code. 
 The day was 6th of January when i started learning JavaScript.
