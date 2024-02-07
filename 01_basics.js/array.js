@@ -26,3 +26,5 @@ myarray.push(6)
 console.log(myarray);
 
 console.log(myarray.includes(9));
+
+//just for the demo 
