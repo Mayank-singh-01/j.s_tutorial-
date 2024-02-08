@@ -34,3 +34,8 @@ form{
 h1 { 
     margin-top: 50px;
 }
+.heightc::placeholder,
+.weightc::placeholder {
+    line-height: 4; 
+}
+
