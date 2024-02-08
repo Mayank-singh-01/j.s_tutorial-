@@ -1,0 +1,26 @@
+* {  
+    background-color: cadetblue;
+}
+#center {
+    margin: 200px auto;
+}
+#banner {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+}
+#clock { 
+    margin: 10px auto;
+    height: 70px;
+    width: 200px;
+    background-color: burlywood;
+    border-radius: 28px;
+    font-size: 23px;
+    font-weight: 700;
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
