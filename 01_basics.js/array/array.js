@@ -1,5 +1,4 @@
 // using all type of callback on shoping card 
-
 // to find the total price 
 
 
