@@ -2,17 +2,17 @@
     background-color: indianred;
     /* border: 15px solid rgb(129, 187, 196); */
     text-align: center;
-    height: 510px;
+    height: 80vh;
     width: 30%;
-    margin: 50px auto;
+    margin:  auto;
     border-radius: 50px;
     font-size: 2.4vh;
 }
 h1 {
-    padding-top: 40px;
-}
+    padding-top: 20px;
+} 
 #guess { 
-    font-size: 5vh;
+    font-size: 2.5vh;
 }
 .guessField { 
     text-align: center;
@@ -25,7 +25,7 @@ h1 {
     border-radius: 15px;
     background-color:burlywood;
 }
-#submit { 
+#subt { 
     height: 30px;
     width: 130px;
     border: none;
