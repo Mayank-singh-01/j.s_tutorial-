@@ -1,0 +1,37 @@
+#wrapper{ 
+    background-color: indianred;
+    border: 15px solid gray;
+    text-align: center;
+    height: 510px;
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 50px;
+    font-size: 2.4vh;
+}
+h1 {
+    padding-top: 40px;
+}
+#guess { 
+    font-size: 5vh;
+}
+.guessField { 
+    text-align: center;
+    color: azure;
+    font-weight: bold;
+    font-size:xx-large;
+    height: 37px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color:burlywood;
+}
+#submit { 
+    height: 30px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(53, 184, 134);
+    color:aliceblue;
+    font-size: 16px;
+    text-align: center;
+}
