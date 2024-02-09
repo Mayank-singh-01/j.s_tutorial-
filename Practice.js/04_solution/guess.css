@@ -1,6 +1,6 @@
 #wrapper{ 
     background-color: indianred;
-    border: 15px solid gray;
+    /* border: 15px solid rgb(129, 187, 196); */
     text-align: center;
     height: 510px;
     width: 30%;
@@ -34,4 +34,10 @@ h1 {
     color:aliceblue;
     font-size: 16px;
     text-align: center;
+}
+body { 
+    background-color:cadetblue;
+}
+h2 { 
+    color: antiquewhite;
 }
