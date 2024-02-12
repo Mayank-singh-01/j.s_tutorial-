@@ -8,13 +8,27 @@
     <button class="button" style="border: none; background-color: cadetblue ;"  >click me !</button>
 </body>
  <script>
-    const newname = function(){ 
-        document.querySelector('h1').innerHTML = "New name is mayank singh"
-    }
-    const block = setTimeout(newname,2000)
+    // const newname = function(){ 
+    //     document.querySelector('h1').innerHTML = "New name is mayank singh"
+    // }
+    // const block = setTimeout(newname,2000)
 
-    document.querySelector('.button').addEventListener('click', function(){
-        clearTimeout(block)
+    // document.querySelector('.button').addEventListener('click', function(){
+    //     clearTimeout(block)
+    // })
+
+
+    //using interval 
+
+    const newName = function () { 
+        document.querySelector('h1').innerHTML = 'new name is mayank singh';
+    }
+    let block = setInterval(newName,2000)
+    console.log(block);
+
+    document.querySelector('.button').addEventListener('click', function (){
+        clearInterval(block)
     })
+
  </script>
 </html>
