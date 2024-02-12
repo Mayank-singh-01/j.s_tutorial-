@@ -8,6 +8,13 @@
     <button class="button" style="border: none; background-color: cadetblue ;"  >click me !</button>
 </body>
  <script>
+    const newname = function(){ 
+        document.querySelector('h1').innerHTML = "New name is mayank singh"
+    }
+    const block = setTimeout(newname,2000)
 
+    document.querySelector('.button').addEventListener('click', function(){
+        clearTimeout(block)
+    })
  </script>
 </html>
