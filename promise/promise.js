@@ -38,7 +38,7 @@ promisetwo.then(function(user){          // we can access data of resolve direct
 //**************************using then and catch******************************
 
 const promisefour = new Promise(function (resolve,reject) {
-    let  error = false ;
+    let  error = true ;
     if (!error) {
        resolve({username:'mayank', title:'singh'})
     } else{
@@ -55,7 +55,11 @@ promisefour.then(function(user){
 
 promisefour.then((user)=>{
     console.log(user);
-    return user.username;
+    return user.username;      // we have to return the value that we need in the call back hell 
 }).then((name)=>{
     console.log(name);
+}).catch((myerror)=>{
+    console.log(myerror);
+}).finally(()=>{
+    console.log('at the end it may resolve or reject');  //its like a default ****************
 })
