@@ -63,3 +63,22 @@ promisefour.then((user)=>{
 }).finally(()=>{
     console.log('at the end it may resolve or reject');  //its like a default ****************
 })
+
+//******************we can also use async and await insted of then and chatch******************
+
+const promiseFive = new Promise(function(resolve,reject){
+    let error = true;
+    if (!error) {
+        resolve({name:'mayank',pasword:'123'})
+    } else{
+        reject('something went wrong')
+    }
+})
+
+promiseFive.then((data)=>{
+    console.log(data);        // we can use this method but we will also try another one that is async await 
+}).catch((error)=>{
+    console.log(error);
+}).finally(()=>{
+    console.log('it show at the end after the workk of then or catch');
+})
