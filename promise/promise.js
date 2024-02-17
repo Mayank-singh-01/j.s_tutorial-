@@ -2,6 +2,7 @@
 //***************************first method to write promise code******************************
 
 
+
 const myPromise = new Promise(function(resolve,reject){
     setTimeout(function(){
       //  console.log("some async work is called");
@@ -13,6 +14,8 @@ myPromise.then(function(){
     console.log('async work is commpleted');
 });
 
+
+
 //***************************another method to write same code******************************
 
 new Promise (function(resolve,reject){
@@ -23,6 +26,8 @@ new Promise (function(resolve,reject){
 }).then(function(){                      //we can directly jion .then to the promise 
     console.log('work has been done');
 });
+
+
 
 //*************************third method to write the promise code***************************
 
@@ -36,7 +41,11 @@ promisetwo.then(function(user){          // we can access data of resolve direct
     console.log(user);
 })
 
+
+
+
 //**************************using then and catch******************************
+
 
 const promisefour = new Promise(function (resolve,reject) {
     let  error = true ;
@@ -65,7 +74,11 @@ promisefour.then((user)=>{
     console.log('at the end it may resolve or reject');  //its like a default ****************
 })
 
+
+
+
 //******************we can also use async and await insted of then and chatch******************
+
 
 const promiseFive = new Promise(function(resolve,reject){
     let error = false;
@@ -79,7 +92,7 @@ const promiseFive = new Promise(function(resolve,reject){
 //this method but we will also try another one that is async await 
 
 promiseFive.then((data)=>{
-    console.log(data);        // we can use
+    console.log(data);        // we can use to acces data of resolve 
 }).catch((error)=>{           
     console.log(error);
 }).finally(()=>{
@@ -88,6 +101,7 @@ promiseFive.then((data)=>{
 
 async function getone(){
     try {
+       // await promiseFive;
         const response = await promiseFive
          console.log(response);
     } catch (error) {
