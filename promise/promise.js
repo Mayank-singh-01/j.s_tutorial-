@@ -68,7 +68,7 @@ promisefour.then((user)=>{
 //******************we can also use async and await insted of then and chatch******************
 
 const promiseFive = new Promise(function(resolve,reject){
-    let error = true;
+    let error = false;
     if (!error) {
         resolve({name:'mayank',pasword:'123'})
     } else{
@@ -76,18 +76,23 @@ const promiseFive = new Promise(function(resolve,reject){
     }
 })
 
-// promiseFive.then((data)=>{
-//     console.log(data);        // we can use this method but we will also try another one that is async await 
-// }).catch((error)=>{
-//     console.log(error);
-// }).finally(()=>{
-//     console.log('it show at the end after the workk of then or catch');
-// })
+//this method but we will also try another one that is async await 
+
+promiseFive.then((data)=>{
+    console.log(data);        // we can use
+}).catch((error)=>{           
+    console.log(error);
+}).finally(()=>{
+    console.log('it show at the end after the workk of then or catch');
+})
 
 async function getone(){
     try {
-        
+        const response = await promiseFive
+         console.log(response);
     } catch (error) {
-        
-    }
+        console.log(error);
+    } 
 }
+
+console.log(getone());
