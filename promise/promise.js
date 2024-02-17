@@ -1,3 +1,4 @@
+
 //***************************first method to write promise code******************************
 
 
@@ -75,10 +76,18 @@ const promiseFive = new Promise(function(resolve,reject){
     }
 })
 
-promiseFive.then((data)=>{
-    console.log(data);        // we can use this method but we will also try another one that is async await 
-}).catch((error)=>{
-    console.log(error);
-}).finally(()=>{
-    console.log('it show at the end after the workk of then or catch');
-})
+// promiseFive.then((data)=>{
+//     console.log(data);        // we can use this method but we will also try another one that is async await 
+// }).catch((error)=>{
+//     console.log(error);
+// }).finally(()=>{
+//     console.log('it show at the end after the workk of then or catch');
+// })
+
+async function getone(){
+    try {
+        
+    } catch (error) {
+        
+    }
+}
