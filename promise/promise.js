@@ -110,3 +110,5 @@ async function getone(){
 }
 
 console.log(getone());
+
+//using async await insted of then catch
