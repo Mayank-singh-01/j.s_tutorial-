@@ -16,3 +16,5 @@ function companyuser(username , email , pasword) {
 const mks = new companyuser('mayank','mks@gmail.com','123456');
 
 console.log(mks);
+
+//&&&&&&&&&&& we use call on function whine in class we use extend and super********************
